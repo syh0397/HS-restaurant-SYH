@@ -1,4 +1,4 @@
-from fastapi import FastAPI , Body, Depends
+from fastapi import FastAPI , Depends
 from pydantic import BaseModel, validator
 
 from utils.functions import calculate
@@ -8,7 +8,7 @@ from utils import models
 from database import Base, engine, SessionLocal
 from sqlalchemy.orm import Session 
 
-
+# 테이블을 생성할 때 MetaData.create_all() 로 생성할 수 있는데 이 메소드를 호출하면 Engine으로 연결된 데이터베이스에 테이블을 생성해준다.
 Base.metadata.create_all(engine)
 
 def get_session():
