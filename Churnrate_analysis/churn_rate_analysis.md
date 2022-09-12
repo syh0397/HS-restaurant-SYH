@@ -27,7 +27,7 @@
 - 공변량(covariate)으로 정의 되는 **X**(독립변수, 설명변수, 예측변수, 위험 인자)가 하나일 때는 단순이고 두 개 이상이면 다중이라고 한다.
 - 즉 , 요약하면 X가 1개 = 단순 , X >= 2 면 다중 / Y가 1개 = 단변량 , Y>=2 는 다변량
 
-![단변량과 다변량 이미지 : meta-analyis naver blog post](images_jeromecheon_post_60f5f55e-8a15-474b-817e-e4a26a28c2b9_Screen%20Shot%202021-01-15%20at%202.46.57%20PM.png)
+![단변량과 다변량 이미지 : meta-analyis naver blog post](./image/images_jeromecheon_post_60f5f55e-8a15-474b-817e-e4a26a28c2b9_Screen%20Shot%202021-01-15%20at%202.46.57%20PM.png)
 
 
 #  Kaplan-Meier 추정법 (KM) = 누적한계추정법(Product Limit Method)
